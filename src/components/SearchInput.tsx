@@ -30,7 +30,7 @@ function SearchInput({ open, setOpen }: SearchInputProps) {
           ref={inputRef}
           placeholder="Search .."
           className={`absolute right-0 -top-1 border border-gray-600 rounded-md p-1 transition-all duration-300 ${
-            open?'w-64 translate-x-0':'w-0 translate-x-10 opacity-0'
+            open?'w-60 translate-x-0':'w-0 translate-x-10 opacity-0'
           }`}
         />
       
