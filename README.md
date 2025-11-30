@@ -1,1 +1,1 @@
-[live link](halal-meat-virid.vercel.app)
+[live link](https://halal-meat-virid.vercel.app)
