@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import { livvic, Mistral} from '@/app/layout';
+import { livvic, Mistral} from '@/app/fonts/index';
 import CheckCircle from './reusablecomponent/CheckCircle';
 import { Beef } from 'lucide-react';
 function OurIntro() {

@@ -2,25 +2,15 @@
 import React from 'react';
 import SideNavbar from './SideNavbar';
 import OurmenuCard from './OurmenuCard';
-import { Livvic, Poppins } from 'next/font/google';
+import { livvic, poppins } from '@/app/fonts/index';
 import { ChevronLeft } from 'lucide-react';
-
-const livvic = Livvic({
-  subsets: ['latin'],
-  weight: ['300', '400', '500', '600', '700'],
-});
-
-const poppins = Poppins({
-  subsets: ['latin'],
-  weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
-});
 
 export type CategoryKey =
   | 'Beef'
   | 'Chicken'
   | 'Lamb'
   | 'Goat'
-  | 'SpecialCutsAndOthers';
+  | 'Special Cuts And Others';
 
 
 const menuItems: Record<CategoryKey, { img: string; title: string; price: string; link: string }[]> = {
@@ -76,7 +66,7 @@ const menuItems: Record<CategoryKey, { img: string; title: string; price: string
       link: '/order/goat',
     },
   ],
-  SpecialCutsAndOthers: [
+  'Special Cuts And Others': [
     {
       img: '/chickenCard.jpg',
       title: 'Special Cut Steak',

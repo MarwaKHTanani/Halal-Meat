@@ -1,15 +1,11 @@
 'use client';
 import React from 'react';
-import { Sniglet } from 'next/font/google';
+import { sniglet } from '@/app/fonts/index';
 import AccountMenu from './AccountMenu';
 import { Bell, ShoppingCart } from 'lucide-react';
 import SearchInput from './SearchInput';
 import Link from 'next/link';
 
-const sniglet = Sniglet({
-  weight: '800',
-  subsets: ['latin'],
-});
 function Navbar() {
   const [activeSection, setActiveSection] = React.useState<string>('home');
   const [searchOpen, setSearchOpen] = React.useState<boolean>(false);

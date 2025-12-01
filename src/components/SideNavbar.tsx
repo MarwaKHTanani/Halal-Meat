@@ -7,7 +7,7 @@ const categories: { title: CategoryKey; img: string }[] = [
   { title: 'Chicken', img: '/chicken.png' },
   { title: 'Lamb', img: '/lamp.png' },
   { title: 'Goat', img: '/goat.png' },
-  { title: 'SpecialCutsAndOthers', img: '/scother.png' },
+  { title: 'Special Cuts And Others', img: '/scother.png' },
 
   
 ]
